@@ -7,7 +7,6 @@ import Pagination from './pagination';
 
 class App extends Component{
   apiEndpoint = 'http://127.0.0.1:8000/posts/'
-
   constructor(){
     super()
     this.state = {
