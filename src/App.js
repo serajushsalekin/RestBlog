@@ -39,7 +39,7 @@ class App extends Component{
       const posts = paginate(allposts, pageSize, currentPage)
     return(
         <div className='App'>
-          <h1 className='text-center'>POSTS</h1>
+          <h1 className='text-center'>Posts</h1>
           { posts.map(post =>
               <div className="card" key={ post.id }>
                 <div className="card-body">
